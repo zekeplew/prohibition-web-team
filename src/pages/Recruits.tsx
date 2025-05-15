@@ -34,7 +34,7 @@ const Recruits = () => {
             <TabsList className="grid w-full grid-cols-3">
               <TabsTrigger value="new-players">New Players</TabsTrigger>
               <TabsTrigger value="transfers">Transfer Players</TabsTrigger>
-              <TabsTrigger value="eligibility">Eligibility</TabsTrigger>
+              
             </TabsList>
             <TabsContent value="new-players">
               <Card>

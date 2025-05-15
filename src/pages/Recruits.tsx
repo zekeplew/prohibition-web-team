@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -6,25 +5,19 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-
 const Recruits = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Form submission logic would go here
     console.log("Form submitted");
   };
-
-  return (
-    <div className="flex flex-col min-h-screen">
+  return <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[40vh] bg-gray-200 flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center z-0" 
-          style={{ 
-            backgroundImage: "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=2000')",
-            filter: "brightness(0.7)"
-          }}
-        ></div>
+        <div className="absolute inset-0 bg-cover bg-center z-0" style={{
+        backgroundImage: "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=2000')",
+        filter: "brightness(0.7)"
+      }}></div>
         <div className="relative z-10 text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">
             Join Tennessee Prohibition
@@ -115,8 +108,8 @@ const Recruits = () => {
                   <h3 className="text-xl font-bold">For Transfer Students</h3>
                   <p>If you've played Ultimate at another college or university, we invite you to bring your experience to our program. Experienced players often make an immediate impact on our A team.</p>
                   
-                  <h3 className="text-xl font-bold mt-6">Team Culture</h3>
-                  <p>Tennessee Prohibition maintains a competitive, focused approach to training and competition. We represent the University of Tennessee with professionalism both on and off the field.</p>
+                  
+                  
                   
                   <h3 className="text-xl font-bold mt-6">Competitive Schedule</h3>
                   <p>Our A team competes in multiple high-level tournaments each year, including:</p>
@@ -209,8 +202,6 @@ const Recruits = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Recruits;

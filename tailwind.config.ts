@@ -57,6 +57,9 @@ export default {
 				tennessee: {
 					orange: '#f77f00',
 					grey: '#58595b',
+					darkgrey: '#333333',
+					lightgrey: '#f4f4f4',
+					white: '#ffffff',
 				}
 			},
 			borderRadius: {
@@ -87,9 +90,11 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out'
 			},
 			fontFamily: {
-				gotham: ['Gotham', 'Arial', 'sans-serif'],
+				sans: ['Roboto', 'Arial', 'sans-serif'],
+				display: ['Montserrat', 'Arial', 'sans-serif'],
 			}
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+

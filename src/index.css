@@ -3,8 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Import Gotham-like font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+/* Import fonts similar to Tennessee Athletics website */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 @layer base {
   :root {
@@ -44,11 +45,13 @@
   }
   
   body {
-    @apply bg-background text-foreground font-[Montserrat];
+    @apply bg-background text-foreground;
+    font-family: 'Roboto', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
@@ -64,4 +67,31 @@
   .section-heading {
     @apply text-3xl font-bold text-tennessee-orange mb-6 border-b-2 border-tennessee-grey pb-2;
   }
+
+  /* New styles inspired by UTSports */
+  .ut-heading {
+    @apply text-3xl md:text-4xl font-black uppercase tracking-tight text-tennessee-orange;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .ut-subheading {
+    @apply text-xl md:text-2xl font-bold text-tennessee-grey uppercase tracking-wider;
+  }
+
+  .ut-card {
+    @apply bg-white shadow-lg border-t-4 border-tennessee-orange overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  .ut-btn {
+    @apply inline-flex items-center justify-center px-6 py-3 font-bold uppercase tracking-wider text-white bg-tennessee-orange hover:bg-orange-600 transition-colors rounded;
+  }
+
+  .ut-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .ut-section {
+    @apply py-12 md:py-16;
+  }
 }
+

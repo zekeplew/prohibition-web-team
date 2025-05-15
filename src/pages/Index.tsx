@@ -36,47 +36,6 @@ const Index = () => {
         <div className="absolute bottom-0 left-0 right-0 h-6 bg-tennessee-grey"></div>
       </section>
 
-      {/* News/Feature Section */}
-      <section className="bg-tennessee-lightgrey py-12">
-        <div className="ut-container">
-          <h2 className="ut-heading text-center mb-10">Latest Updates</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="ut-card">
-              <div className="h-48 bg-gray-200 relative">
-                <img src="https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?auto=format&fit=crop&q=80&w=800" alt="Team practice" className="w-full h-full object-cover" />
-              </div>
-              <div className="p-6">
-                <h3 className="font-bold text-xl mb-2">Spring Tournament Schedule Released</h3>
-                <p className="text-tennessee-grey mb-4">Check out our upcoming tournaments and cheer on the team as we compete across the country!</p>
-                <Link to="/schedule" className="text-tennessee-orange font-bold hover:underline">View Details →</Link>
-              </div>
-            </div>
-            
-            <div className="ut-card">
-              <div className="h-48 bg-gray-200 relative">
-                <img src="https://images.unsplash.com/photo-1484482340112-e1e2682b4856?auto=format&fit=crop&q=80&w=800" alt="New players" className="w-full h-full object-cover" />
-              </div>
-              <div className="p-6">
-                <h3 className="font-bold text-xl mb-2">Recruitment Now Open</h3>
-                <p className="text-tennessee-grey mb-4">Interested in joining Tennessee Prohibition? We're looking for dedicated players of all experience levels.</p>
-                <Link to="/recruits" className="text-tennessee-orange font-bold hover:underline">Learn More →</Link>
-              </div>
-            </div>
-            
-            <div className="ut-card">
-              <div className="h-48 bg-gray-200 relative">
-                <img src="https://images.unsplash.com/photo-1526676037777-05a232554f77?auto=format&fit=crop&q=80&w=800" alt="Team huddle" className="w-full h-full object-cover" />
-              </div>
-              <div className="p-6">
-                <h3 className="font-bold text-xl mb-2">Support Our Team</h3>
-                <p className="text-tennessee-grey mb-4">Your donations help us compete at the highest level by covering tournament fees, travel expenses, and equipment.</p>
-                <Link to="/donate" className="text-tennessee-orange font-bold hover:underline">Donate Now →</Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Welcome Section */}
       <section className="ut-section bg-white">
         <div className="ut-container">

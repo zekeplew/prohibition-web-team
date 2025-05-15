@@ -48,33 +48,56 @@ const Recruits = () => {
                 <CardHeader>
                   <CardTitle>New to Ultimate?</CardTitle>
                   <CardDescription>
-                    No experience necessary! Many of our top players had never played Ultimate before college.
+                    Tennessee Prohibition offers competitive opportunities for players of all skill levels.
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <h3 className="text-xl font-bold">What to Expect</h3>
-                  <p>We welcome players of all skill levels, including those who are brand new to the sport. Our practices focus on teaching fundamentals and gradually introducing more advanced concepts.</p>
+                  <h3 className="text-xl font-bold">A and B Teams</h3>
+                  <p>Tennessee Prohibition consists of two competitive teams:</p>
+                  
+                  <div className="space-y-4 mt-4">
+                    <div className="border-l-4 border-tennessee-orange pl-4">
+                      <h4 className="text-lg font-bold">A Team</h4>
+                      <p>Our A team competes at the highest level of collegiate Ultimate, representing the University of Tennessee at D1 tournaments across the country. This team requires a higher level of commitment and athletic ability.</p>
+                    </div>
+                    
+                    <div className="border-l-4 border-tennessee-grey pl-4">
+                      <h4 className="text-lg font-bold">B Team</h4>
+                      <p>Our B team provides competitive development opportunities for newer players and those working to advance their skills. This team still competes in tournaments while focusing on building fundamentals.</p>
+                    </div>
+                  </div>
                   
                   <h3 className="text-xl font-bold mt-6">Practice Schedule</h3>
-                  <p>We practice three times a week during the fall and spring semesters:</p>
-                  <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
-                    <li>Monday: 6:00 PM - 8:00 PM</li>
-                    <li>Wednesday: 6:00 PM - 8:00 PM</li>
-                    <li>Saturday: 10:00 AM - 12:00 PM</li>
-                  </ul>
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-tennessee-orange pl-4">
+                      <h4 className="text-lg font-bold">A Team</h4>
+                      <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
+                        <li>Monday: 6:00 PM - 8:00 PM</li>
+                        <li>Wednesday: 6:00 PM - 8:00 PM</li>
+                        <li>Thursday: 8:00 PM - 10:00 PM</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="border-l-4 border-tennessee-grey pl-4 mt-4">
+                      <h4 className="text-lg font-bold">B Team</h4>
+                      <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
+                        <li>Monday: 6:00 PM - 8:00 PM</li>
+                        <li>Wednesday: 6:00 PM - 8:00 PM</li>
+                      </ul>
+                    </div>
+                  </div>
                   
                   <h3 className="text-xl font-bold mt-6">What to Bring</h3>
-                  <p>For your first practice, just bring:</p>
+                  <p>For your first practice, bring:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
                     <li>Athletic clothes</li>
-                    <li>Cleats (soccer cleats work great)</li>
+                    <li>Cleats (soccer cleats work well)</li>
                     <li>Water bottle</li>
-                    <li>Enthusiasm!</li>
                   </ul>
                   
                   <div className="bg-tennessee-orange/10 p-4 rounded-md mt-6 border-l-4 border-tennessee-orange">
-                    <p className="text-lg font-medium">Ready to try it out?</p>
-                    <p className="mt-2">Just show up to any practice or contact us through the form below. No commitment required to check us out!</p>
+                    <p className="text-lg font-medium">Ready to join?</p>
+                    <p className="mt-2">Attend any practice or contact us through the form below. Team placement will be determined based on skill level and commitment.</p>
                   </div>
                 </CardContent>
               </Card>
@@ -85,18 +108,18 @@ const Recruits = () => {
                 <CardHeader>
                   <CardTitle>Transfer Players</CardTitle>
                   <CardDescription>
-                    Experienced players from other programs are welcome!
+                    Experienced players from other programs are welcome to join our competitive teams.
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <h3 className="text-xl font-bold">For Transfer Students</h3>
-                  <p>If you've played Ultimate at another college or university, we'd love to have you join our program. Our team has a mix of experience levels, and experienced players can make an immediate impact.</p>
+                  <p>If you've played Ultimate at another college or university, we invite you to bring your experience to our program. Experienced players often make an immediate impact on our A team.</p>
                   
                   <h3 className="text-xl font-bold mt-6">Team Culture</h3>
-                  <p>Tennessee Prohibition prides itself on a competitive but supportive team culture. We work hard on the field but also prioritize building a community off the field.</p>
+                  <p>Tennessee Prohibition maintains a competitive, focused approach to training and competition. We represent the University of Tennessee with professionalism both on and off the field.</p>
                   
                   <h3 className="text-xl font-bold mt-6">Competitive Schedule</h3>
-                  <p>We compete in 5-7 tournaments each year, including:</p>
+                  <p>Our A team competes in multiple high-level tournaments each year, including:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
                     <li>Fall semester tournaments (2-3)</li>
                     <li>Spring regular season tournaments (2-3)</li>
@@ -104,8 +127,8 @@ const Recruits = () => {
                   </ul>
                   
                   <div className="bg-tennessee-orange/10 p-4 rounded-md mt-6 border-l-4 border-tennessee-orange">
-                    <p className="text-lg font-medium">Connect with us!</p>
-                    <p className="mt-2">We recommend reaching out to the captain or coach before attending practice so we can properly welcome you and answer any specific questions.</p>
+                    <p className="text-lg font-medium">Contact our leadership</p>
+                    <p className="mt-2">We recommend reaching out to the captain or coach before attending practice so we can assess your skills and experience.</p>
                   </div>
                 </CardContent>
               </Card>
@@ -134,15 +157,15 @@ const Recruits = () => {
                   <p>To participate as a member of Tennessee Prohibition, players must:</p>
                   
                   <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
-                    <li>Attend at least 2 practices per week</li>
+                    <li>Attend practices regularly per team schedule</li>
                     <li>Pay team dues (financial assistance available)</li>
-                    <li>Represent the team with good sportsmanship</li>
+                    <li>Represent the team with professionalism</li>
                     <li>Commit to tournament attendance</li>
                   </ul>
                   
                   <div className="bg-tennessee-orange/10 p-4 rounded-md mt-6 border-l-4 border-tennessee-orange">
-                    <p className="text-lg font-medium">Questions about eligibility?</p>
-                    <p className="mt-2">If you have specific questions about your eligibility status, please contact our team leadership through the form below.</p>
+                    <p className="text-lg font-medium">Eligibility questions</p>
+                    <p className="mt-2">For specific eligibility concerns, please contact our team leadership through the form below.</p>
                   </div>
                 </CardContent>
               </Card>

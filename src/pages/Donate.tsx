@@ -80,38 +80,21 @@ const Donate = () => {
         
         {/* Donation Options Section */}
         <div className="bg-gray-50 rounded-lg p-8 mb-12">
-          <h2 className="text-2xl font-bold mb-6">Ways to Support the Team</h2>
+          <h2 className="text-2xl font-bold mb-6">University Donation Fund</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-xl font-bold mb-4">Venmo</h3>
-              <p className="mb-4">
-                For quick and easy donations, you can send directly to our team Venmo account.
-              </p>
-              <p className="font-bold mb-2">Venmo Username: @TennesseeUltimate</p>
-              <p className="text-sm text-gray-600 mb-4">
-                Please include a note with "Prohibition Donation" and your name.
-              </p>
-              <Button className="bg-[#3D95CE] hover:bg-[#3D85CE] text-white">
-                Venmo @TennesseeUltimate
-              </Button>
-            </div>
-            
-            <div>
-              <h3 className="text-xl font-bold mb-4">University Club Sports Fund</h3>
-              <p className="mb-4">
-                For tax-deductible donations, you can donate through the official University of Tennessee 
-                Club Sports Fund.
-              </p>
-              <p className="text-sm text-gray-600 mb-4">
-                When donating, be sure to designate "Men's Ultimate Frisbee" in the allocation notes.
-              </p>
-              <Button asChild className="bg-tennessee-orange hover:bg-orange-600 text-white">
-                <a href="https://giving.utk.edu" target="_blank" rel="noopener noreferrer">
-                  Donate via UTK
-                </a>
-              </Button>
-            </div>
+          <div>
+            <p className="mb-4">
+              For tax-deductible donations, you can donate through the official University of Tennessee 
+              Club Sports Fund.
+            </p>
+            <p className="text-sm text-gray-600 mb-4 font-bold">
+              Important: When donating, be sure to select "Men's Ultimate Sport Club Support Fund" in the designation options.
+            </p>
+            <Button asChild className="bg-tennessee-orange hover:bg-orange-600 text-white">
+              <a href="https://give.utk.edu/campaigns/42950/donations/new?designation=recsports" target="_blank" rel="noopener noreferrer">
+                Donate via UTK
+              </a>
+            </Button>
           </div>
         </div>
         
@@ -132,7 +115,7 @@ const Donate = () => {
             <li>Custom sponsorship packages available</li>
           </ul>
           <Button asChild variant="outline" className="border-tennessee-orange text-tennessee-orange hover:bg-tennessee-orange/10">
-            <a href="mailto:sponsorship@tennesseeprohibition.com">
+            <a href="mailto:tennmultimate@gmail.com">
               Contact for Sponsorship Info
             </a>
           </Button>

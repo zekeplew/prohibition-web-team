@@ -27,8 +27,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Connect With Us</h3>
             <div className="flex space-x-4 mb-4">
-              {/* Social Media Icons Placeholder */}
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-tennessee-orange">
+              {/* Social Media Icons */}
+              <a href="https://www.instagram.com/tennesseeultimate/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-tennessee-orange">
                 <span className="sr-only">Instagram</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
                   <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
@@ -36,13 +36,7 @@ const Footer = () => {
                   <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                 </svg>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-tennessee-orange">
-                <span className="sr-only">Twitter</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
-                  <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
-                </svg>
-              </a>
-              <a href="mailto:team@tennesseeprohibition.com" className="text-white hover:text-tennessee-orange">
+              <a href="mailto:tennmultimate@gmail.com" className="text-white hover:text-tennessee-orange">
                 <span className="sr-only">Email</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -50,7 +44,28 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
-            <p className="text-sm">Email: team@tennesseeprohibition.com</p>
+            <p className="text-sm">Email: tennmultimate@gmail.com</p>
+          </div>
+        </div>
+        
+        {/* Sponsor Section */}
+        <div className="mt-12 border-t border-white/10 pt-8">
+          <h3 className="text-lg font-bold mb-6 text-center">Our Sponsors</h3>
+          <div className="flex flex-wrap justify-center items-center gap-8 mb-8">
+            <div className="bg-white p-4 rounded-lg max-w-[180px] h-auto">
+              <img 
+                src="/lovable-uploads/6b8aba9c-7bc9-428e-9c93-c37ac220c561.png" 
+                alt="Onward Physical Therapy"
+                className="w-full h-auto object-contain"
+              />
+            </div>
+            <div className="bg-white p-4 rounded-lg max-w-[180px] h-auto">
+              <img 
+                src="/lovable-uploads/9ae09722-d258-44b2-b7b9-8c333043aaec.png" 
+                alt="Xul Beer Co"
+                className="w-full h-auto object-contain"
+              />
+            </div>
           </div>
         </div>
         

@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
+import Sponsors from '../components/Sponsors';
 
 const Index = () => {
   return (
@@ -126,12 +127,15 @@ const Index = () => {
                 <Link to="/recruits">Learn About Joining</Link>
               </Button>
               <Button asChild size="lg" variant="secondary" className="bg-tennessee-grey hover:bg-gray-600 text-white border-white font-bold uppercase tracking-wider">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Follow Us on Social Media</a>
+                <a href="https://www.instagram.com/tennesseeultimate/" target="_blank" rel="noopener noreferrer">Follow Us on Instagram</a>
               </Button>
             </div>
           </div>
         </div>
       </section>
+      
+      {/* Sponsors Section */}
+      <Sponsors />
       
       {/* Checkerboard Pattern Section */}
       <div className="h-10 checkerboard-pattern"></div>
